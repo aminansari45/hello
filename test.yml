@@ -5,7 +5,7 @@
    
    tasks:
    - name: Install packages
-        yum:
-          name: ['httpd', 'php', 'php-mysql']
-          update_cache: yes
-          state: present
+     yum:
+       name: ['httpd', 'php', 'php-mysql']
+       update_cache: yes
+       state: present
